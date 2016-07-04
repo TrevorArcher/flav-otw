@@ -74,35 +74,10 @@ nav ul li {
   padding: 5px;
 }
 
-/*Footer styles*/
 footer {
-  box-sizing: border-box;
-  margin-top: auto;
-  padding: 0.5rem 1rem 0;
-  /*background: #ddd;*/
-  height: 60px;
-  width: 100%;
-}
-
-footer a img {
-  width: 35px;
-  vertical-align: bottom;
-}
-
-footer p {
-  margin: 0.75rem 0 0;
-  font-size: 1em;
-  font-weight: bold;
-  display: inline-block;
-  color: #000;
-}
-footer div {
-  display: inline-block;
-  float: right;
-}
-
-footer div a img {
-  margin: 5px 0 0 10px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .header-text {
@@ -128,17 +103,17 @@ footer div a img {
 }
 
 .flavor-2, .flavor-4 {
-  /*float: right;*/
-  float: left;
+  float: right;
+  /*float: left;*/
 }
 
 .flavor-1 p, .flavor-3 p{
   padding-right: 10%;
 }
 
-.flavor-2 p, .flavor-4 p{
-  /*padding-left: 15%;*/
-  padding-right: 10%;
+.flavor-2 p, .flavor-4 p, .flavor-2 h3, .flavor-4 h3 {
+  padding-left: 10%;
+  /*padding-right: 10%;*/
 }
 
 .flavor-1 img, .flavor-3 img {
@@ -148,12 +123,12 @@ footer div a img {
 }
 
 .flavor-2 img, .flavor-4 img {
-  /*float: right;
+  float: right;
   border-radius: 50% 0 0 50%;
-  margin: 0 0 0 2rem;*/
-  float: left;
+  margin: 0 0 0 2rem;
+  /*float: left;
   border-radius: 0 50% 50% 0;
-  margin: 0 2rem 0 0
+  margin: 0 2rem 0 0*/
 }
 
 .scoop {
