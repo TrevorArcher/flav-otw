@@ -2,64 +2,89 @@
 <html>
 <head>
   <title>Home - Flavor of the Week</title>
-  <link rel="stylesheet" href="styles/style.css" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='styles/style.css' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
-    <h1>Flavor of the Week</h1>
+    <div class="header-text">
+      <h1>Flavor of the Week</h1>
+    </div>
     <nav>
-      <a href="#">Home</a>
-      <a href="#about">Who we are</a>
-      <div class="flavor-menu">
-        <a href="#flavors">Featured Flavors</a> <!--turn into dropdown, links to flavors page and jumps to proper flavor-->
-        <div class="flavor-select">
-          <a href="#flavor1">Desert Rose</a>
-          <a href="#flavor2">The Side Hustle</a>
-          <a href="#flavor3">Whitecap</a>
-          <a href="#flavor4">Star Ruby</a>
-        </div>
-      </div>
-    <div class="loc-menu">
-      <a href="#loc">Locations</a>
-        <div class="loc-select">
-          <a href="#sf">SF</a>
-          <a href="#la">LA</a>
-        </div>
-      </div>
+      <ul>
+        <li>
+          <a href='#'>Home</a>
+        </li>
+        <li>
+          <div class='flavor-menu'>
+            <a href='#flavors'>Featured Flavors</a> <!--turn into dropdown, links to flavors page and jumps to proper flavor-->
+            <div class='flavor-select'>
+              <a href='#flavor1'>Desert Rose</a>
+              <a href='#flavor2'>The Side Hustle</a>
+              <a href='#flavor3'>Whitecap</a>
+              <a href='#flavor4'>Star Ruby</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href='#about'>Who we are</a>
+        </li>
+        <li>
+          <div class='loc-menu'>
+            <a href='#loc'>Locations</a>
+            <div class='loc-select'>
+              <a href='#sf'>SF</a>
+              <a href='#la'>LA</a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </nav>
   </header>
   <main>
-    <div class="about">
-      <a name="about"></a>
+    <div class='flavor-list'>
+      <h2>Featured Flavors</h2>
+      <a name='flavors'></a>
+      <div class='scoop'>
+        <a name='flavor1'></a>
+        <h3>Desert Rose</h3>
+        <img src='images/rose-scoop.jpg'>
+        <p>Vanilla Rose ice cream, manuka honey</p>
+      </div>
+      <div class='scoop'>
+        <a name='flavor2'></a>
+        <h3>The Side Hustle</h3>
+        <img src='images/hustle-scoop.jpg'>
+        <p>Macchiato ice cream. Single-source something country coffee. Biscotti(?)</p>
+      </div>
+      <div class='scoop'>
+        <a name='flavor3'></a>
+        <h3>Whitecap</h3>
+        <img src='images/whitecap-scoop.jpg'>
+        <p>Blueberry coconut ice cream</p>
+      </div>
+      <div class='scoop'>
+        <a name='flavor4'></a>
+        <h3>Star Ruby</h3>
+        <img src='images/ruby-scoop.jpeg'>
+        <p>A refreshing mix of Ruby red grapefruit sorbet, star anise, ginger</p>
+      </div>
+    </div>
+    <div class='about'>
+      <a name='about'></a>
       <p>We take ice cream a little too seriously. Fresh ethically organic grown sourced foods</p>
       <figure>
-        <img src="images/woman-dropped.jpg" alt="a sad lady with no ice cream">
+        <img src='images/woman-dropped.jpg' alt='a sad lady with no ice cream'>
         <figcaption>"This is the worst day of my life." &ndash;This woman, probably.</figcaption>
       </figure>
     </div>
-    <div class="flavors">
-      <a name="flavors"></a>
-      <a name="flavor1"></a>
-      <h2>Desert Rose</h2>
-      <p>Vanilla Rose ice cream, manuka honey</p>
-      <a name="flavor2"></a>
-      <h2>The Side Hustle</h2>
-      <p>Macchiato ice cream. Single-source something country coffee. Biscotti(?)</p>
-      <a name="flavor3"></a>
-      <h2>Whitecap</h2>
-      <p>Blueberry ice cream with ribbon/swirl of coconut</p>
-      <a name="flavor4"></a>
-      <h2>Star Ruby</h2>
-      <p>A refreshing mix of Ruby red grapefruit sorbet, star anise, ginger</p>
-    </div>
-    <div class="locations">
-      <a name="loc"></a>
-      <h2>Locations</h2>
+    <div class='locations'>
+      <a name='loc'></a>
+      <h3>Locations</h3>
       <a name=sf>
         SF. Located in scenic plrfghsr
       </a>
-      <a name="la">
+      <a name='la'>
         LA. heart of the mdcvbn
       </a>
     </div>
