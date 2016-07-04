@@ -74,11 +74,36 @@ nav ul li {
   padding: 5px;
 }
 
+/*Footer styles*/
 footer {
-  height: 40px;
-  padding-top: 10px;
-  text-align: center;
+  box-sizing: border-box;
+  margin-top: auto;
+  padding: 0.5rem 1rem 0;
+  height: 60px;
+  width: 100%;
 }
+
+footer a img {
+  width: 35px;
+  vertical-align: bottom;
+}
+
+footer p {
+  margin: 0.75rem 0 0;
+  font-size: 1em;
+  font-weight: bold;
+  display: inline-block;
+  color: #000;
+}
+footer div {
+  display: inline-block;
+  float: right;
+}
+
+footer div a img {
+  margin: 5px 0 0 10px;
+}
+
 
 .header-text {
   display: inline-block;
