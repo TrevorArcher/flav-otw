@@ -11,7 +11,7 @@ header{
   width: 100%;
   height: 60vh;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
-    url(../images/splash.jpg) fixed top;
+    url(../images/splash.jpg) fixed bottom;
   background-size: cover;
   text-align: center;
 }
@@ -21,7 +21,7 @@ h1 {
   font-size: 7em;
   font-weight: bold;
   color: transparent;
- background: url(../images/splash.jpg) fixed top;
+ background: url(../images/splash.jpg) fixed bottom;
  -webkit-background-clip: text;
  background-size: cover;
   margin: 0 auto;
@@ -39,8 +39,17 @@ a {
   text-decoration: none;
 }
 
-figcaption {
-  font: italic 1em Helvetica, sans-serif;
+.about figure {
+  text-align: center;
+}
+
+.about figure img {
+  width: 35%;
+  min-width: 300px;
+}
+
+.about figcaption {
+  font: italic 0.8em Helvetica, sans-serif;
 }
 
 nav {
@@ -90,7 +99,7 @@ footer {
 
 }
 
-.flavor-1 , .flavor-3 {
+.flavor-1, .flavor-3 {
   float: left;
 }
 
@@ -98,14 +107,29 @@ footer {
   float: right;
 }
 
+.flavor-1 img, .flavor-3 img {
+  float: left;
+  border-radius: 0 50% 50% 0;
+  margin: 0 2rem 0 0
+}
+
+.flavor-2 img, .flavor-4 img {
+  float: right;
+  border-radius: 50% 0 0 50%;
+  margin: 0 0 0 2rem;
+}
+
+.scoop {
+  clear: both;
+}
+
 .scoop img {
-  margin-right: 1.5rem;
-  margin-bottom: 0.25rem;
   max-width: 300px;
+  shape-outside: circle(50%);
 }
 
 .scoop p, .scoop h3 {
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .about {
