@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
-  background: linear-gradient(rgba(127, 63, 121, 0.4), rgba(127, 63, 121, 0.4)),
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
     url(../images/skulls.png) fixed;
   margin: 0 auto;
 
@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+figcaption {
+  font: italic 1em Helvetica, sans-serif;
+}
+
 nav {
   width: 100%;
   height: 2.5rem;
@@ -62,6 +66,12 @@ nav ul li {
   padding: 5px;
 }
 
+footer {
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
 .header-text {
   display: inline-block;
   position: absolute;
@@ -74,4 +84,33 @@ nav ul li {
 
 .flavor-select, .loc-select {
   display: none;
+}
+
+.flavor-list {
+
+}
+
+.flavor-1 , .flavor-3 {
+  float: left;
+}
+
+.flavor-2, .flavor-4 {
+  float: right;
+}
+
+.scoop img {
+  margin-right: 1.5rem;
+  margin-bottom: 0.25rem;
+  max-width: 300px;
+}
+
+.scoop p, .scoop h3 {
+  display: inline-block;
+}
+
+.about {
+  width: 100%;
+  background-color: #7F3F79;
+  background-color: rgba(127, 63, 121, 0.4);
+  clear: both;
 }
