@@ -31,7 +31,7 @@ h1 {
 
 h2 {
   font: 3.5em;
-  color: rgba(0, 0, 0, 0.8), #333;
+  color: rgba(0, 0, 0, 0.8);
   margin: 0 auto;
   text-align: center;
 }
@@ -39,7 +39,7 @@ h2 {
 h3 {
   font: 2em 'Dancing Script', Helvetica, sans-serif;
   text-align: center;
-  margin: 0.75em auto;
+  margin: 0.5em auto;
 }
 
 a {
@@ -101,7 +101,7 @@ footer a img {
 }
 
 footer p {
-  margin: 0.75rem 0 0;
+  margin: 1rem 0 0;
   font-size: 1em;
   font-weight: bold;
   display: inline-block;
@@ -210,19 +210,15 @@ footer div a img {
   .scoop {
     padding: 0;
   }
-
   .scoop h3, .scoop p {
     margin: 0 0 0.25em;
 }
-
   .scoop h3 {
     font-size: 1.5em;
 }
-
   .scoop p {
     font-size: 0.85em;
 }
-
   .scoop img {
     shape-outside: none;
     border-radius: 0;
@@ -230,28 +226,35 @@ footer div a img {
     margin: 0 10px 0;
     width: 40%;
   }
-
   .loc-1, .loc-2 {
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
-
   .loc-2 {
     margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 530px) {
+  header {
+    height: 25vh;
+  }
+  nav {
+    display: none;
+  }
+  h1 {
+    font-size: 3em;
+    color: #333;
+  }
   .scoop {
     margin: 1rem auto;
     text-align: center;
   }
-
   .scoop img {
     display: none;
   }
   .scoop p {
     font-size: 1em;
-}
+  }
 }
