@@ -205,3 +205,53 @@ footer div a img {
 .loc-2 {
   float: right;
 }
+
+@media screen and (max-width: 768px) {
+  .scoop {
+    padding: 0;
+  }
+
+  .scoop h3, .scoop p {
+    margin: 0 0 0.25em;
+}
+
+  .scoop h3 {
+    font-size: 1.5em;
+}
+
+  .scoop p {
+    font-size: 0.85em;
+}
+
+  .scoop img {
+    shape-outside: none;
+    border-radius: 0;
+    float: left;
+    margin: 0 10px 0;
+    width: 40%;
+  }
+
+  .loc-1, .loc-2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .loc-2 {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .scoop {
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .scoop img {
+    display: none;
+  }
+  .scoop p {
+    font-size: 1em;
+}
+}
