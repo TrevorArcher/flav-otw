@@ -128,17 +128,15 @@ footer div a img {
 }
 
 .flavor-2, .flavor-4 {
-  /*float: right;*/
-  float: left;
+  float: right;
 }
 
 .flavor-1 p, .flavor-3 p{
-  padding-right: 10%;
+  padding-right: 15%;
 }
 
-.flavor-2 p, .flavor-4 p{
-  /*padding-left: 15%;*/
-  padding-right: 10%;
+.flavor-2 p, .flavor-4 p, .flavor-2 h3, .flavor-4 h3 {
+  padding-left: 15%;
 }
 
 .flavor-1 img, .flavor-3 img {
@@ -148,12 +146,9 @@ footer div a img {
 }
 
 .flavor-2 img, .flavor-4 img {
-  /*float: right;
+  float: right;
   border-radius: 50% 0 0 50%;
-  margin: 0 0 0 2rem;*/
-  float: left;
-  border-radius: 0 50% 50% 0;
-  margin: 0 2rem 0 0
+  margin: 0 0 0 2rem;
 }
 
 .scoop {
@@ -174,4 +169,8 @@ footer div a img {
   background-color: #7F3F79;
   background-color: rgba(127, 63, 121, 0.4);
   clear: both;
+}
+
+.locations a {
+  text-decoration: underline;
 }
