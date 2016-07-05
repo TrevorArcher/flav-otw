@@ -106,7 +106,7 @@ footer p {
   font-size: 1em;
   font-weight: bold;
   display: inline-block;
-  color: #000;
+  color: #333;
 }
 #soc-icon {
   display: inline-block;
@@ -248,7 +248,7 @@ footer div a img {
     text-align: center;
   }
   header {
-    height: 25vh;
+    height: 30vh;
   }
   nav {
     display: none;
@@ -257,11 +257,18 @@ footer div a img {
     font-size: 3em;
     color: #333;
   }
+  p {
+    width: 95%;
+  }
   figure {
     display: none;
   }
   #soc-icon {
     width: 100%;
+  }
+  .about-text {
+    max-width: 100%;
+    margin: 0 auto;
   }
   .scoop {
     margin: 1rem auto;
