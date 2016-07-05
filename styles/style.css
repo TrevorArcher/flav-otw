@@ -1,12 +1,13 @@
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #555;
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
     url(../images/skulls.png) fixed;
   margin: 0 auto;
 
 }
 
-header{
+header {
   position: relative;
   width: 100%;
   height: 60vh;
@@ -35,9 +36,19 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font: 2em 'Dancing Script', Helvetica, sans-serif;
+  text-align: center;
+  margin: 0.75em auto;
+}
+
 a {
-  text-decoration: none;
   color: #555;
+  text-decoration: underline;
+}
+
+header a {
+  text-decoration: none;
 }
 
 .about figure {
@@ -119,10 +130,6 @@ footer div a img {
   display: none;
 }
 
-.flavor-list {
-
-}
-
 .flavor-1, .flavor-3 {
   float: left;
 }
@@ -131,12 +138,12 @@ footer div a img {
   float: right;
 }
 
-.flavor-1 p, .flavor-3 p{
-  padding-right: 15%;
+.flavor-1, .flavor-3 {
+  padding-right: 30%;
 }
 
-.flavor-2 p, .flavor-4 p, .flavor-2 h3, .flavor-4 h3 {
-  padding-left: 15%;
+.flavor-2, .flavor-4 {
+  padding-left: 30%;
 }
 
 .flavor-1 img, .flavor-3 img {
@@ -155,14 +162,12 @@ footer div a img {
   clear: both;
 }
 
-.scoop h3 {
-  margin: 0;
-}
-
 .scoop img {
   max-width: 300px;
   shape-outside: circle(50%);
 }
+
+/*About section*/
 
 .about {
   width: 100%;
@@ -171,6 +176,32 @@ footer div a img {
   clear: both;
 }
 
-.locations a {
-  text-decoration: underline;
+.about-text {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+/*Locations section*/
+
+.locations {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.locations p {
+  margin-top: 0;
+}
+
+.locations img {
+  height: 350px;
+}
+
+.loc-1, .loc-2 {
+  display: inline-block;
+  width: 45%;
+}
+
+.loc-2 {
+  float: right;
 }
