@@ -21,6 +21,7 @@ h1 {
   font-family: 'Dancing Script', Helvetica, sans-serif;
   font-size: 7em;
   font-weight: bold;
+  color: #333;
   color: transparent;
  background: url(../images/splash.jpg) fixed bottom;
  -webkit-background-clip: text;
@@ -107,7 +108,7 @@ footer p {
   display: inline-block;
   color: #000;
 }
-footer div {
+#soc-icon {
   display: inline-block;
   float: right;
 }
@@ -206,6 +207,12 @@ footer div a img {
   float: right;
 }
 
+.mobile-map {
+  display: none;
+}
+
+/*Media queries*/
+
 @media screen and (max-width: 768px) {
   .scoop {
     padding: 0;
@@ -237,6 +244,9 @@ footer div a img {
 }
 
 @media screen and (max-width: 530px) {
+  body {
+    text-align: center;
+  }
   header {
     height: 25vh;
   }
@@ -247,14 +257,29 @@ footer div a img {
     font-size: 3em;
     color: #333;
   }
+  figure {
+    display: none;
+  }
+  #soc-icon {
+    width: 100%;
+  }
   .scoop {
     margin: 1rem auto;
-    text-align: center;
   }
   .scoop img {
     display: none;
   }
   .scoop p {
     font-size: 1em;
+  }
+  .locations {
+    margin: 1rem auto;
+  }
+  .loc-1, .loc-2 {
+    display: none;
+  }
+  .mobile-map {
+    display: block;
+    margin: 1rem auto;
   }
 }
