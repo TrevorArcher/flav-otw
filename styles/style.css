@@ -175,6 +175,7 @@ footer div a img {
   background-color: #7F3F79;
   background-color: rgba(127, 63, 121, 0.4);
   clear: both;
+  padding: 1rem 0;
 }
 
 .about-text {
