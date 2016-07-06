@@ -131,7 +131,7 @@ footer div a img {
   display: none;
 }
 
-.flavor-1, .flavor-3 {
+.flavor-1, .flavor-3, .flavor-5 {
   float: left;
 }
 
@@ -139,7 +139,7 @@ footer div a img {
   float: right;
 }
 
-.flavor-1, .flavor-3 {
+.flavor-1, .flavor-3, .flavor-5 {
   padding-right: 30%;
 }
 
@@ -147,7 +147,7 @@ footer div a img {
   padding-left: 30%;
 }
 
-.flavor-1 img, .flavor-3 img {
+.flavor-1 img, .flavor-3 img, .flavor-5 img{
   float: left;
   border-radius: 0 50% 50% 0;
   margin: 0 2rem 0 0
