@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
   color: #555;
@@ -117,6 +121,15 @@ footer div a img {
   margin: 5px 0 0 10px;
 }
 
+/*Content Styles*/
+
+#flavor-desc {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  /*display: none;*/
+}
+
 .header-text {
   display: inline-block;
   position: absolute;
@@ -131,41 +144,16 @@ footer div a img {
   display: none;
 }
 
-.flavor-1, .flavor-3, .flavor-5 {
-  float: left;
-}
-
-.flavor-2, .flavor-4 {
-  float: right;
-}
-
-.flavor-1, .flavor-3, .flavor-5 {
-  padding-right: 30%;
-}
-
-.flavor-2, .flavor-4 {
-  padding-left: 30%;
-}
-
-.flavor-1 img, .flavor-3 img, .flavor-5 img{
-  float: left;
-  border-radius: 0 50% 50% 0;
-  margin: 0 2rem 0 0
-}
-
-.flavor-2 img, .flavor-4 img {
-  float: right;
-  border-radius: 50% 0 0 50%;
-  margin: 0 0 0 2rem;
-}
-
 .scoop {
-  clear: both;
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  margin-right: -4px;
 }
 
 .scoop img {
-  max-width: 250px;
-  shape-outside: circle(50%);
+  max-width: 100%;
+  border-radius: 0 0 50% 50%;
 }
 
 /*About section*/
