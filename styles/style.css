@@ -16,7 +16,7 @@ header {
   width: 100%;
   height: 35vh;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)),
-    url(../images/splash-2.jpg) fixed bottom;
+    url(../images/splash-3.jpg) fixed bottom;
   background-size: cover;
   text-align: center;
 }
@@ -27,7 +27,7 @@ h1 {
   font-weight: bold;
   color: #333;
   color: transparent;
- background: url(../images/splash-2.jpg) fixed bottom;
+ background: url(../images/splash-3.jpg) fixed bottom;
  -webkit-background-clip: text;
  background-size: cover;
   margin: 0 auto;
@@ -44,7 +44,7 @@ h2 {
 h3 {
   font: 2em 'Dancing Script', Helvetica, sans-serif;
   text-align: center;
-  margin: 0.5em auto;
+  margin: 0 auto;
 }
 
 a {
@@ -54,18 +54,6 @@ a {
 
 header a {
   text-decoration: none;
-}
-
-.about figure {
-  text-align: center;
-}
-
-.about figure img {
-  width: 350px;
-}
-
-.about figcaption {
-  font: italic 0.8em Helvetica, sans-serif;
 }
 
 nav {
@@ -136,6 +124,11 @@ footer div a img {
 
 }
 
+.desc {
+  display: inline-block;
+  margin-top: 5%;
+}
+
 .flavor-desc-1,
 .flavor-desc-2,
 .flavor-desc-3,
@@ -178,38 +171,62 @@ footer div a img {
   width: 100%;
   background-color: #7F3F79;
   background-color: rgba(127, 63, 121, 0.4);
-  clear: both;
-  padding: 1rem 0;
+  text-align: center;
+}
+
+.about figure {
+  text-align: center;
+}
+
+.about figure img {
+  width: 350px;
+}
+
+.about figcaption {
+  font: italic 0.8em Helvetica, sans-serif;
+}
+
+.about-contain {
+  display: inline-block;
+  margin: 2.5% auto;
 }
 
 .about-text {
-  max-width: 65%;
+  width: 65%;
+  max-width: 800px;
   margin: 0 auto;
 }
+
 
 /*Locations section*/
 
 .locations {
-  max-width: 90%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  vertical-align: middle;
 }
 
+.loc-contain {
+  width: 85%;
+  display: inline-block;
+  margin: 2.5% auto;
+}
+
+
 .locations p {
-  margin-top: 0;
+  margin: 0 0.8rem;
 }
 
 .locations img {
   height: 350px;
+  margin: 2rem;
 }
 
 .loc-1, .loc-2 {
   display: inline-block;
   width: 45%;
-}
-
-.loc-2 {
-  float: right;
+  margin: 2.5% auto;
 }
 
 .mobile-map {
