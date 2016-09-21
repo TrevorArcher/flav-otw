@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #555;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../../images/skulls.png) fixed;
+  margin: 0 auto; }
+
+header {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), white), url(../../images/tiny/splash-3.jpg) fixed bottom;
+  background-size: cover;
+  text-align: center; }
+  header a {
+    text-decoration: none; }
+
+h1 {
+  font-family: 'Dancing Script', Helvetica, sans-serif;
+  font-size: 7em;
+  font-weight: bold;
+  color: #333;
+  color: transparent;
+  background: url(../../images/tiny/splash-3.jpg) fixed bottom;
+  -webkit-background-clip: text;
+  background-size: cover;
+  margin: 0 auto; }
+
+h2 {
+  font: 3.5em;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  text-align: center; }
+
+h3 {
+  font: 2em 'Dancing Script', Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto; }
+
+a {
+  color: #555;
+  text-decoration: underline; }
+
+nav {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto; }
+  nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto; }
+    nav ul li {
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.8);
+      width: auto;
+      padding: 5px; }
+
+/*Footer styles*/
+footer {
+  box-sizing: border-box;
+  margin-top: auto;
+  padding: 0.5rem 1rem 0;
+  height: 60px;
+  width: 100%; }
+  footer a img {
+    width: 35px;
+    vertical-align: bottom; }
+  footer p {
+    margin: 1rem 0 0;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    color: #333; }
+  footer div a img {
+    margin: 5px 0 0 10px; }
+
+#soc-icon {
+  display: inline-block;
+  float: right; }
+
+/*Content Styles*/
+.flavor-list {
+  height: 65vh; }
+
+#flavor-desc-section {
+  width: 75%;
+  max-width: 600px;
+  font-size: 125%;
+  text-align: center;
+  margin: 0 auto; }
+
+.desc {
+  display: inline-block;
+  margin-top: 5%; }
+
+.flavor-desc-1,
+.flavor-desc-2,
+.flavor-desc-3,
+.flavor-desc-4,
+.flavor-desc-5 {
+  display: none; }
+
+.header-text {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 0;
+  text-align: center;
+  margin: 0 auto; }
+
+.flavor-select, .loc-select {
+  display: none; }
+
+.scoop {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 20%;
+  vertical-align: top;
+  margin-left: -4px; }
+  .scoop img {
+    max-width: 100%;
+    border-radius: 0 0 50% 50%; }
+
+/*About section*/
+.about {
+  width: 100%;
+  background-color: #7F3F79;
+  background-color: rgba(127, 63, 121, 0.4);
+  text-align: center; }
+  .about figure {
+    text-align: center; }
+    .about figure img {
+      width: 350px; }
+  .about figcaption {
+    font: italic 0.8em Helvetica, sans-serif; }
+
+.about-contain {
+  display: inline-block;
+  margin: 2.5% auto; }
+
+.about-text {
+  width: 65%;
+  max-width: 800px;
+  margin: 0 auto; }
+
+/*Locations section*/
+.locations {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle; }
+  .locations p {
+    margin: 0 0.8rem; }
+  .locations img {
+    height: 350px;
+    margin: 2rem; }
+
+.loc-contain {
+  width: 85%;
+  display: inline-block;
+  margin: 2.5% auto; }
+
+.loc-1, .loc-2 {
+  display: inline-block;
+  width: 45%;
+  margin: 2.5% auto; }
+
+.mobile-map {
+  display: none; }
+
+/*Media queries*/
+@media screen and (max-width: 768px) {
+  .scoop {
+    padding: 0; }
+    .scoop h3 {
+      margin: 0 0 0.25em;
+      font-size: 1.5em; }
+    .scoop p {
+      margin: 0 0 0.25em;
+      font-size: 0.85em; }
+    .scoop img {
+      shape-outside: none;
+      border-radius: 0;
+      float: left;
+      margin: 0 10px 0;
+      width: 40%; }
+
+  .loc-1, .loc-2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+
+  .loc-2 {
+    margin-top: 1rem; } }
+@media screen and (max-width: 530px) {
+  body {
+    text-align: center; }
+
+  header {
+    height: 30vh; }
+
+  nav {
+    display: none; }
+
+  h1 {
+    font-size: 3em;
+    color: #333; }
+
+  p {
+    width: 95%; }
+
+  figure {
+    display: none; }
+
+  #soc-icon {
+    width: 100%; }
+
+  .about-text {
+    max-width: 100%;
+    margin: 0 auto; }
+
+  .scoop {
+    margin: 1rem auto; }
+    .scoop img {
+      display: none; }
+    .scoop p {
+      font-size: 1em; }
+
+  .locations {
+    margin: 1rem auto; }
+
+  .loc-1, .loc-2 {
+    display: none; }
+
+  .mobile-map {
+    display: block;
+    margin: 1rem auto; } }
+
+/*# sourceMappingURL=style.css.map */
