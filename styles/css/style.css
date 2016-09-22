@@ -176,21 +176,9 @@ footer {
   display: none; }
 
 /*Media queries*/
-@media screen and (max-width: 768px) {
-  .scoop {
-    padding: 0; }
-    .scoop h3 {
-      margin: 0 0 0.25em;
-      font-size: 1.5em; }
-    .scoop p {
-      margin: 0 0 0.25em;
-      font-size: 0.85em; }
-    .scoop img {
-      shape-outside: none;
-      border-radius: 0;
-      float: left;
-      margin: 0 10px 0;
-      width: 40%; }
+@media screen and (max-width: 950px) {
+  nav {
+    display: none; }
 
   .loc-1, .loc-2 {
     width: 100%;
@@ -215,23 +203,6 @@ footer {
 
   p {
     width: 95%; }
-
-  figure {
-    display: none; }
-
-  #soc-icon {
-    width: 100%; }
-
-  .about-text {
-    max-width: 100%;
-    margin: 0 auto; }
-
-  .scoop {
-    margin: 1rem auto; }
-    .scoop img {
-      display: none; }
-    .scoop p {
-      font-size: 1em; }
 
   .locations {
     margin: 1rem auto; }
